@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.4-b01-. --><xs:schema xmlns:tns="T24WebServicesImpl" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="T24WebServicesImpl">
+
+<xs:element name="INTENQTEST" type="tns:INTENQTEST" />
+
+<xs:element name="INTENQTESTResponse" type="tns:INTENQTESTResponse" />
+
+<xs:element name="ITLGINTSECMASTLIST" type="tns:ITLGINTSECMASTLIST" />
+
+<xs:element name="ITLGINTSECMASTLISTResponse" type="tns:ITLGINTSECMASTLISTResponse" />
+
+<xs:element name="ITLGPORTFOLIOHOLDING" type="tns:ITLGPORTFOLIOHOLDING" />
+
+<xs:element name="ITLGPORTFOLIOHOLDINGResponse" type="tns:ITLGPORTFOLIOHOLDINGResponse" />
+
+<xs:element name="TMSBRINTENQLOANDETAILS" type="tns:TMSBRINTENQLOANDETAILS" />
+
+<xs:element name="TMSBRINTENQLOANDETAILSResponse" type="tns:TMSBRINTENQLOANDETAILSResponse" />
+
+<xs:element name="TMSBRINTENQLOANDETS" type="tns:TMSBRINTENQLOANDETS" />
+
+<xs:element name="TMSBRINTENQLOANDETSResponse" type="tns:TMSBRINTENQLOANDETSResponse" />
+
+<xs:element name="TmnV360CustSummaryPosition" type="tns:TmnV360CustSummaryPosition" />
+
+<xs:element name="TmnV360CustSummaryPositionResponse" type="tns:TmnV360CustSummaryPositionResponse" />
+
+<xs:element name="TmnV360GlobalInvestmentDetail" type="tns:TmnV360GlobalInvestmentDetail" />
+
+<xs:element name="TmnV360GlobalInvestmentDetailResponse" type="tns:TmnV360GlobalInvestmentDetailResponse" />
+
+<xs:element name="TmnV360PortfolioDetails" type="tns:TmnV360PortfolioDetails" />
+
+<xs:element name="TmnV360PortfolioDetailsResponse" type="tns:TmnV360PortfolioDetailsResponse" />
+
+<xs:element name="TmnV360PortfolioList" type="tns:TmnV360PortfolioList" />
+
+<xs:element name="TmnV360PortfolioListResponse" type="tns:TmnV360PortfolioListResponse" />
+
+<xs:element name="WSTMSAABILLSSCHEDULES" type="tns:WSTMSAABILLSSCHEDULES" />
+
+<xs:element name="WSTMSAABILLSSCHEDULESResponse" type="tns:WSTMSAABILLSSCHEDULESResponse" />
+
+<xs:element name="WSTMSAMPERFPRTYM" type="tns:WSTMSAMPERFPRTYM" />
+
+<xs:element name="WSTMSAMPERFPRTYMResponse" type="tns:WSTMSAMPERFPRTYMResponse" />
+
+<xs:element name="WSTMSBRINTLDEPODET" type="tns:WSTMSBRINTLDEPODET" />
+
+<xs:element name="WSTMSBRINTLDEPODETResponse" type="tns:WSTMSBRINTLDEPODETResponse" />
+
+<xs:element name="WSTMSSTMTENTBOOK" type="tns:WSTMSSTMTENTBOOK" />
+
+<xs:element name="WSTMSSTMTENTBOOKResponse" type="tns:WSTMSSTMTENTBOOKResponse" />
+
+<xs:element name="callOfs" type="tns:callOfs" />
+
+<xs:element name="callOfsResponse" type="tns:callOfsResponse" />
+
+<xs:complexType name="TMSITLGPORTFOLIOHOLDINGType">
+<xs:sequence>
+<xs:element name="gTMSITLGPORTFOLIOHOLDINGDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSITLGPORTFOLIOHOLDINGDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="IHDR" type="xs:string" minOccurs="0" />
+<xs:element name="HDR2" type="xs:string" minOccurs="0" />
+<xs:element name="AccountOfficer" type="xs:string" minOccurs="0" />
+<xs:element name="Portfolio" type="xs:string" minOccurs="0" />
+<xs:element name="SecNo" type="xs:string" minOccurs="0" />
+<xs:element name="SecurityName" type="xs:string" minOccurs="0" />
+<xs:element name="Isin" type="xs:string" minOccurs="0" />
+<xs:element name="SubAssetType" type="xs:string" minOccurs="0" />
+<xs:element name="SecCcy" type="xs:string" minOccurs="0" />
+<xs:element name="MatDate" type="xs:string" minOccurs="0" />
+<xs:element name="NominalSecCcy" type="xs:string" minOccurs="0" />
+<xs:element name="PriceCcy" type="xs:string" minOccurs="0" />
+<xs:element name="MarketPrice" type="xs:string" minOccurs="0" />
+<xs:element name="DateLastPrice" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BRINTBPORTLISTType">
+<xs:sequence>
+<xs:element name="ZEROREC" type="xs:string" minOccurs="0" />
+<xs:element name="gBRINTBPORTLISTDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mBRINTBPORTLISTDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="PortfolioID" type="xs:string" minOccurs="0" />
+<xs:element name="Owner" type="xs:string" minOccurs="0" />
+<xs:element name="ClientType" type="xs:string" minOccurs="0" />
+<xs:element name="Description" type="xs:string" minOccurs="0" />
+<xs:element name="BalanceUS" type="xs:string" minOccurs="0" />
+<xs:element name="JointHolder" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSBRINTENQLOANDETSType">
+<xs:sequence>
+<xs:element name="gTMSBRINTENQLOANDETSDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSBRINTENQLOANDETSDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LoanType" type="xs:string" minOccurs="0" />
+<xs:element name="LoanNumber" type="xs:string" minOccurs="0" />
+<xs:element name="DisbursementDate" type="xs:string" minOccurs="0" />
+<xs:element name="CreditAmount" type="xs:string" minOccurs="0" />
+<xs:element name="Rate" type="xs:string" minOccurs="0" />
+<xs:element name="Balance" type="xs:string" minOccurs="0" />
+<xs:element name="NextPayment" type="xs:string" minOccurs="0" />
+<xs:element name="NextPaymentDate" type="xs:string" minOccurs="0" />
+<xs:element name="MaturityDate" type="xs:string" minOccurs="0" />
+<xs:element name="FrequencyCapitalInterests" type="xs:string" minOccurs="0" />
+<xs:element name="AccruedInterests" type="xs:string" minOccurs="0" />
+<xs:element name="Currency" type="xs:string" minOccurs="0" />
+<xs:element name="ID" type="xs:string" minOccurs="0" />
+<xs:element name="AccountOfficer" type="xs:string" minOccurs="0" />
+<xs:element name="AccountReference" type="xs:string" minOccurs="0" />
+<xs:element name="DisburseAcct" type="xs:string" minOccurs="0" />
+<xs:element name="SignRelation" type="xs:string" minOccurs="0" />
+<xs:element name="SignCondition" type="xs:string" minOccurs="0" />
+<xs:element name="ClientType" type="xs:string" minOccurs="0" />
+<xs:element name="Cliente" type="xs:string" minOccurs="0" />
+<xs:element name="RelationCode" type="xs:string" minOccurs="0" />
+<xs:element name="ItlgCustType" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSENQGENOLBType">
+<xs:sequence>
+<xs:element name="gTMSENQGENOLBDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSENQGENOLBDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="COL1" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSAMPERFPRTYMType">
+<xs:sequence>
+<xs:element name="LPORTFOLIO" type="xs:string" minOccurs="0" />
+<xs:element name="LREFCCY" type="xs:string" minOccurs="0" />
+<xs:element name="LBENCHMARK" type="xs:string" minOccurs="0" />
+<xs:element name="LBEGINMKTVLE" type="xs:string" minOccurs="0" />
+<xs:element name="LENDMKTVALUE" type="xs:string" minOccurs="0" />
+<xs:element name="PORTNAME" type="xs:string" minOccurs="0" />
+<xs:element name="LPORTOPENED" type="xs:string" minOccurs="0" />
+<xs:element name="LPORTCLOSED" type="xs:string" minOccurs="0" />
+<xs:element name="LCALCMETHOD" type="xs:string" minOccurs="0" />
+<xs:element name="DISPCLOSEDDATE" type="xs:string" minOccurs="0" />
+<xs:element name="gTMSAMPERFPRTYMDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSAMPERFPRTYMDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LYLYPFOLIPERF" type="xs:string" minOccurs="0" />
+<xs:element name="DISPPORTFOLIO" type="xs:string" minOccurs="0" />
+<xs:element name="DISPCCY" type="xs:string" minOccurs="0" />
+<xs:element name="BENCHNAME" type="xs:string" minOccurs="0" />
+<xs:element name="DISPBEGINVAL" type="xs:string" minOccurs="0" />
+<xs:element name="DISPENDVAL" type="xs:string" minOccurs="0" />
+<xs:element name="LCURRENTDATE" type="xs:string" minOccurs="0" />
+<xs:element name="DISPPORTNAME" type="xs:string" minOccurs="0" />
+<xs:element name="DISPOPENDDATE" type="xs:string" minOccurs="0" />
+<xs:element name="DISPMETHOD" type="xs:string" minOccurs="0" />
+<xs:element name="DATETODAY" type="xs:string" minOccurs="0" />
+<xs:element name="Date" type="xs:string" minOccurs="0" />
+<xs:element name="EndMarketValue" type="xs:string" minOccurs="0" />
+<xs:element name="NetFlow" type="xs:string" minOccurs="0" />
+<xs:element name="YearlyReturn" type="xs:string" minOccurs="0" />
+<xs:element name="CumReturn" type="xs:string" minOccurs="0" />
+<xs:element name="GeoCumReturn" type="xs:string" minOccurs="0" />
+<xs:element name="FeesFlow" type="xs:string" minOccurs="0" />
+<xs:element name="DividendAccrual" type="xs:string" minOccurs="0" />
+<xs:element name="RecoverableTax" type="xs:string" minOccurs="0" />
+<xs:element name="BenchReturn" type="xs:string" minOccurs="0" />
+<xs:element name="CumBenchReturn" type="xs:string" minOccurs="0" />
+<xs:element name="AvgInvestment" type="xs:string" minOccurs="0" />
+<xs:element name="PortfolioId" type="xs:string" minOccurs="0" />
+<xs:element name="PortfolioCurrency" type="xs:string" minOccurs="0" />
+<xs:element name="ReportType" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSBRINTLDEPODETType">
+<xs:sequence>
+<xs:element name="ZEROREC" type="xs:string" minOccurs="0" />
+<xs:element name="gTMSBRINTLDEPODETDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSBRINTLDEPODETDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="DepositNumber" type="xs:string" minOccurs="0" />
+<xs:element name="AccountingBalance" type="xs:string" minOccurs="0" />
+<xs:element name="Rate" type="xs:string" minOccurs="0" />
+<xs:element name="StartDate" type="xs:string" minOccurs="0" />
+<xs:element name="MaturityDate" type="xs:string" minOccurs="0" />
+<xs:element name="TermDays" type="xs:string" minOccurs="0" />
+<xs:element name="InterestFrequency" type="xs:string" minOccurs="0" />
+<xs:element name="NextPayment" type="xs:string" minOccurs="0" />
+<xs:element name="PaymentAmount" type="xs:string" minOccurs="0" />
+<xs:element name="AccruedInterest" type="xs:string" minOccurs="0" />
+<xs:element name="GuaranteedAccountingBalance" type="xs:string" minOccurs="0" />
+<xs:element name="InstructionsatMaturity" type="xs:string" minOccurs="0" />
+<xs:element name="DrawdownAccount" type="xs:string" minOccurs="0" />
+<xs:element name="Currency" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSSTMTENTBOOKType">
+<xs:sequence>
+<xs:element name="DACC" type="xs:string" minOccurs="0" />
+<xs:element name="CUS" type="xs:string" minOccurs="0" />
+<xs:element name="DCCY" type="xs:string" minOccurs="0" />
+<xs:element name="DORIGTEXT" type="xs:string" minOccurs="0" />
+<xs:element name="DAUTOPAYTEXT" type="xs:string" minOccurs="0" />
+<xs:element name="DORIGACCT" type="xs:string" minOccurs="0" />
+<xs:element name="DAUTOACCT" type="xs:string" minOccurs="0" />
+<xs:element name="ORIGACCTCCY" type="xs:string" minOccurs="0" />
+<xs:element name="AUTOPAYCCY" type="xs:string" minOccurs="0" />
+<xs:element name="DEUEQUIV" type="xs:string" minOccurs="0" />
+<xs:element name="DEUCCY" type="xs:string" minOccurs="0" />
+<xs:element name="ZERORECORDS" type="xs:string" minOccurs="0" />
+<xs:element name="gTMSSTMTENTBOOKDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSSTMTENTBOOKDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="HDRLINE11" type="xs:string" minOccurs="0" />
+<xs:element name="HDRLINE12" type="xs:string" minOccurs="0" />
+<xs:element name="HDRLINE21" type="xs:string" minOccurs="0" />
+<xs:element name="HDRLINE22" type="xs:string" minOccurs="0" />
+<xs:element name="HDRLINE3" type="xs:string" minOccurs="0" />
+<xs:element name="BACC" type="xs:string" minOccurs="0" />
+<xs:element name="PRTNM" type="xs:string" minOccurs="0" />
+<xs:element name="Cliente" type="xs:string" minOccurs="0" />
+<xs:element name="Currency" type="xs:string" minOccurs="0" />
+<xs:element name="Cuenta" type="xs:string" minOccurs="0" />
+<xs:element name="Fecha" type="xs:string" minOccurs="0" />
+<xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+<xs:element name="Reference" type="xs:string" minOccurs="0" />
+<xs:element name="PostFecha" type="xs:string" minOccurs="0" />
+<xs:element name="Cargo" type="xs:string" minOccurs="0" />
+<xs:element name="Abono" type="xs:string" minOccurs="0" />
+<xs:element name="Saldo" type="xs:string" minOccurs="0" />
+<xs:element name="Contador" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BRINVASSETDETType">
+<xs:sequence>
+<xs:element name="ZEROREC" type="xs:string" minOccurs="0" />
+<xs:element name="gBRINVASSETDETDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mBRINVASSETDETDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="HDR" type="xs:string" minOccurs="0" />
+<xs:element name="ProductType" type="xs:string" minOccurs="0" />
+<xs:element name="AssetClass" type="xs:string" minOccurs="0" />
+<xs:element name="Sector" type="xs:string" minOccurs="0" />
+<xs:element name="Region" type="xs:string" minOccurs="0" />
+<xs:element name="Currency" type="xs:string" minOccurs="0" />
+<xs:element name="Producto" type="xs:string" minOccurs="0" />
+<xs:element name="ValorNominal" type="xs:string" minOccurs="0" />
+<xs:element name="Units" type="xs:string" minOccurs="0" />
+<xs:element name="LastPurchaseDate" type="xs:string" minOccurs="0" />
+<xs:element name="AvgPurchasePrice" type="xs:string" minOccurs="0" />
+<xs:element name="TotalInvestment" type="xs:string" minOccurs="0" />
+<xs:element name="OriginalCurrency" type="xs:string" minOccurs="0" />
+<xs:element name="TotalInvOriginalCCY" type="xs:string" minOccurs="0" />
+<xs:element name="MarketPrice" type="xs:string" minOccurs="0" />
+<xs:element name="MarketValueDate" type="xs:string" minOccurs="0" />
+<xs:element name="MarketValue" type="xs:string" minOccurs="0" />
+<xs:element name="AccuredInterest" type="xs:string" minOccurs="0" />
+<xs:element name="ProfitLoss" type="xs:string" minOccurs="0" />
+<xs:element name="Coupon" type="xs:string" minOccurs="0" />
+<xs:element name="CouponAmount" type="xs:string" minOccurs="0" />
+<xs:element name="NextPayment" type="xs:string" minOccurs="0" />
+<xs:element name="InterestFrequency" type="xs:string" minOccurs="0" />
+<xs:element name="MaturityDate" type="xs:string" minOccurs="0" />
+<xs:element name="Pledge" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSBRINTENQLOANDETAILSType">
+<xs:sequence>
+<xs:element name="gTMSBRINTENQLOANDETAILSDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSBRINTENQLOANDETAILSDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LoanType" type="xs:string" minOccurs="0" />
+<xs:element name="LoanNumber" type="xs:string" minOccurs="0" />
+<xs:element name="DisbursementDate" type="xs:string" minOccurs="0" />
+<xs:element name="CreditAmount" type="xs:string" minOccurs="0" />
+<xs:element name="Rate" type="xs:string" minOccurs="0" />
+<xs:element name="Balance" type="xs:string" minOccurs="0" />
+<xs:element name="NextPayment" type="xs:string" minOccurs="0" />
+<xs:element name="NextPaymentDate" type="xs:string" minOccurs="0" />
+<xs:element name="MaturityDate" type="xs:string" minOccurs="0" />
+<xs:element name="FrequencyCapitalInterests" type="xs:string" minOccurs="0" />
+<xs:element name="AccruedInterests" type="xs:string" minOccurs="0" />
+<xs:element name="Currency" type="xs:string" minOccurs="0" />
+<xs:element name="ArrangementId" type="xs:string" minOccurs="0" />
+<xs:element name="CustomerId" type="xs:string" minOccurs="0" />
+<xs:element name="AccountOfficer" type="xs:string" minOccurs="0" />
+<xs:element name="AccountReference" type="xs:string" minOccurs="0" />
+<xs:element name="DisburseAccount" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BRINTBPORTDETType">
+<xs:sequence>
+<xs:element name="ZEROREC" type="xs:string" minOccurs="0" />
+<xs:element name="gBRINTBPORTDETDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mBRINTBPORTDETDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Group" type="xs:string" minOccurs="0" />
+<xs:element name="ProductType" type="xs:string" minOccurs="0" />
+<xs:element name="AssetClass" type="xs:string" minOccurs="0" />
+<xs:element name="Sector" type="xs:string" minOccurs="0" />
+<xs:element name="Region" type="xs:string" minOccurs="0" />
+<xs:element name="Currency" type="xs:string" minOccurs="0" />
+<xs:element name="SecurityId" type="xs:string" minOccurs="0" />
+<xs:element name="ProductName" type="xs:string" minOccurs="0" />
+<xs:element name="CurrentBalance" type="xs:string" minOccurs="0" />
+<xs:element name="RealDist" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ITLGINTSECMASTLISTType">
+<xs:sequence>
+<xs:element name="gITLGINTSECMASTLISTDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mITLGINTSECMASTLISTDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Id" type="xs:string" minOccurs="0" />
+<xs:element name="IHDR" type="xs:string" minOccurs="0" />
+<xs:element name="SecName" type="xs:string" minOccurs="0" />
+<xs:element name="Isin" type="xs:string" minOccurs="0" />
+<xs:element name="CoDom" type="xs:string" minOccurs="0" />
+<xs:element name="SecDom" type="xs:string" minOccurs="0" />
+<xs:element name="SecCcy" type="xs:string" minOccurs="0" />
+<xs:element name="PriceCcy" type="xs:string" minOccurs="0" />
+<xs:element name="LastPrice" type="xs:string" minOccurs="0" />
+<xs:element name="DtLastPrice" type="xs:string" minOccurs="0" />
+<xs:element name="SAT" type="xs:string" minOccurs="0" />
+<xs:element name="SATDesc" type="xs:string" minOccurs="0" />
+<xs:element name="Pricetype" type="xs:string" minOccurs="0" />
+<xs:element name="PriceUpdate" type="xs:string" minOccurs="0" />
+<xs:element name="BS" type="xs:string" minOccurs="0" />
+<xs:element name="IntRate" type="xs:string" minOccurs="0" />
+<xs:element name="Maturity" type="xs:string" minOccurs="0" />
+<xs:element name="TradingUnits" type="xs:string" minOccurs="0" />
+<xs:element name="MarginRate" type="xs:string" minOccurs="0" />
+<xs:element name="CusipNO" type="xs:string" minOccurs="0" />
+<xs:element name="AssetType" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BRINTBASSETLISTType">
+<xs:sequence>
+<xs:element name="ZERREC" type="xs:string" minOccurs="0" />
+<xs:element name="gBRINTBASSETLISTDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mBRINTBASSETLISTDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Group" type="xs:string" minOccurs="0" />
+<xs:element name="Reference" type="xs:string" minOccurs="0" />
+<xs:element name="Description" type="xs:string" minOccurs="0" />
+<xs:element name="Balance" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSAABILLSSCHEDULESType">
+<xs:sequence>
+<xs:element name="gTMSAABILLSSCHEDULESDetailType" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mTMSAABILLSSCHEDULESDetailType" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TITLE" type="xs:string" minOccurs="0" />
+<xs:element name="PaymentDate" type="xs:string" minOccurs="0" />
+<xs:element name="TotalDue" type="xs:string" minOccurs="0" />
+<xs:element name="TotalCap" type="xs:string" minOccurs="0" />
+<xs:element name="Charge" type="xs:string" minOccurs="0" />
+<xs:element name="Interest" type="xs:string" minOccurs="0" />
+<xs:element name="Tax" type="xs:string" minOccurs="0" />
+<xs:element name="TotalPymt" type="xs:string" minOccurs="0" />
+<xs:element name="Principal" type="xs:string" minOccurs="0" />
+<xs:element name="TotalPrincipalInterest" type="xs:string" minOccurs="0" />
+<xs:element name="Outstanding" type="xs:string" minOccurs="0" />
+<xs:element name="BillReference" type="xs:string" minOccurs="0" />
+<xs:element name="DueDate" type="xs:string" minOccurs="0" />
+<xs:element name="BillType" type="xs:string" minOccurs="0" />
+<xs:element name="BillAmount" type="xs:string" minOccurs="0" />
+<xs:element name="BillOutstandingAmount" type="xs:string" minOccurs="0" />
+<xs:element name="BillStatus" type="xs:string" minOccurs="0" />
+<xs:element name="BillStatusDate" type="xs:string" minOccurs="0" />
+</xs:sequence>
+<xs:attribute name="m" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="g" type="xs:positiveInteger" />
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSAABILLSSCHEDULES">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSAABILLSSCHEDULESType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="webRequestCommon">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" />
+<xs:element name="password" type="xs:string" />
+<xs:element name="company" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="enquiryInput">
+<xs:sequence>
+<xs:element name="enquiryInputCollection" type="tns:enquiryInputCollection" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="enquiryInputCollection">
+<xs:sequence>
+<xs:element name="columnName" type="xs:string" minOccurs="0" />
+<xs:element name="criteriaValue" type="xs:string" minOccurs="0" />
+<xs:element name="operand" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSAABILLSSCHEDULESResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSAABILLSSCHEDULESType" type="tns:TMSAABILLSSCHEDULESType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Status">
+<xs:sequence>
+<xs:element name="transactionId" type="xs:string" minOccurs="0" />
+<xs:element name="messageId" type="xs:string" minOccurs="0" />
+<xs:element name="successIndicator" type="tns:successIndicator" minOccurs="0" />
+<xs:element name="application" type="xs:string" minOccurs="0" />
+<xs:element name="messages" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360CustSummaryPosition">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="BRINTBASSETLISTType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360CustSummaryPositionResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="BRINTBASSETLISTType" type="tns:BRINTBASSETLISTType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360PortfolioDetails">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="BRINTBPORTDETType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360PortfolioDetailsResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="BRINTBPORTDETType" type="tns:BRINTBPORTDETType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ITLGINTSECMASTLIST">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="ITLGINTSECMASTLISTType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ITLGINTSECMASTLISTResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="ITLGINTSECMASTLISTType" type="tns:ITLGINTSECMASTLISTType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSBRINTENQLOANDETAILS">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSBRINTENQLOANDETAILSType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSBRINTENQLOANDETAILSResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSBRINTENQLOANDETAILSType" type="tns:TMSBRINTENQLOANDETAILSType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360GlobalInvestmentDetail">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="BRINVASSETDETType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360GlobalInvestmentDetailResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="BRINVASSETDETType" type="tns:BRINVASSETDETType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSSTMTENTBOOK">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSSTMTENTBOOKType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSSTMTENTBOOKResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSSTMTENTBOOKType" type="tns:TMSSTMTENTBOOKType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="INTENQTEST">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSENQGENOLBType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="INTENQTESTResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSENQGENOLBType" type="tns:TMSENQGENOLBType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSAMPERFPRTYM">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSAMPERFPRTYMType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSAMPERFPRTYMResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSAMPERFPRTYMType" type="tns:TMSAMPERFPRTYMType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="callOfs">
+<xs:sequence>
+<xs:element name="OfsRequest" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="callOfsResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="OfsResponse" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSBRINTLDEPODET">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSBRINTLDEPODETType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WSTMSBRINTLDEPODETResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSBRINTLDEPODETType" type="tns:TMSBRINTLDEPODETType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360PortfolioList">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="BRINTBPORTLISTType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TmnV360PortfolioListResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="BRINTBPORTLISTType" type="tns:BRINTBPORTLISTType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSBRINTENQLOANDETS">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSBRINTENQLOANDETSType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TMSBRINTENQLOANDETSResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSBRINTENQLOANDETSType" type="tns:TMSBRINTENQLOANDETSType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ITLGPORTFOLIOHOLDING">
+<xs:sequence>
+<xs:element name="WebRequestCommon" type="tns:webRequestCommon" minOccurs="0" />
+<xs:element name="TMSITLGPORTFOLIOHOLDINGType" type="tns:enquiryInput" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ITLGPORTFOLIOHOLDINGResponse">
+<xs:sequence>
+<xs:element name="Status" type="tns:Status" minOccurs="0" />
+<xs:element name="TMSITLGPORTFOLIOHOLDINGType" type="tns:TMSITLGPORTFOLIOHOLDINGType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="successIndicator">
+<xs:restriction base="xs:string">
+<xs:enumeration value="Success" />
+<xs:enumeration value="TWSError" />
+<xs:enumeration value="T24Error" />
+<xs:enumeration value="T24Override" />
+<xs:enumeration value="T24Offline" />
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

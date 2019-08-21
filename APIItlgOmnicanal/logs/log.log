@@ -1,0 +1,53 @@
+12-07-2019 16:50:00,590 ERROR c.s.MSSqlConectaITLGDWH [main] ERROR: No se pudo realizar la conexión con el host BNK01TS083, instancia con nombre itlgdwh. Error: "java.net.UnknownHostException: BNK01TS083". Verifique los nombres del servidor y de instancia, compruebe que no hay ningún firewall bloqueando el tráfico UDP al puerto 1434. Para SQL Server 2005 o posterior, verifique que el servicio SQL Server Browser se está ejecutando en el host.
+12-07-2019 16:52:34,292 ERROR c.s.MSSqlConectaITLGDWH [main] ERROR: No se pudo realizar la conexión con el host BNK01TS083, instancia con nombre itlgdwh. Error: "java.net.UnknownHostException: BNK01TS083". Verifique los nombres del servidor y de instancia, compruebe que no hay ningún firewall bloqueando el tráfico UDP al puerto 1434. Para SQL Server 2005 o posterior, verifique que el servicio SQL Server Browser se está ejecutando en el host.
+15-07-2019 12:09:04,414 ERROR c.t.s.i.CWServiceListaMonedasHiloImpl [Thread-1] ERROR: Property port does not exist on target class com.microsoft.sqlserver.jdbc.SQLServerDataSource
+15-07-2019 12:21:47,435 ERROR c.s.HikariMsSqlITLGDWH [main] ERROR: Property port does not exist on target class com.microsoft.sqlserver.jdbc.SQLServerDataSource
+15-07-2019 12:28:58,396 ERROR c.s.HikariMsSqlITLGDWH [main] ERROR: Error de inicio de sesión del usuario 'pausrdbdesa'. ClientConnectionId:f493fb84-b243-4328-932f-d373f06dde37
+15-07-2019 12:29:59,079 ERROR c.s.HikariMsSqlITLGDWH [main] ERROR: Error de inicio de sesión del usuario 'pausrdbdesa'. ClientConnectionId:c623286d-7c6e-4098-bd2b-20d164c733a6
+15-07-2019 16:20:08,055 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Failed to initialize pool: Login failed for user 'BNK01TS083\ITLGDWH'. ClientConnectionId:63e08245-fab7-4ac6-aa99-71a62b164eda
+15-07-2019 16:21:37,228 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Failed to initialize pool: Login failed for user 'BNK01TS083\ITLGDWH'. ClientConnectionId:f016914f-2b70-4e08-a235-1a6fcd227bec
+15-07-2019 16:24:02,679 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Failed to initialize pool: Login failed for user 'BNK01TS083\ITLGDWH'. ClientConnectionId:5757df95-e0a0-4347-bab4-108c89736dd5
+15-07-2019 16:25:50,481 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Failed to initialize pool: Login failed for user 'BNK01TS083\ITLGDWH'. ClientConnectionId:de40b150-abcd-4f94-985d-d590bc8c15d9
+15-07-2019 16:27:48,901 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 16:29:15,635 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 16:29:46,105 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 16:29:58,266 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 16:30:15,029 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 16:30:47,631 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 16:33:03,790 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 16:33:26,661 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 16:33:55,353 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 16:36:59,841 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: PROD
+15-07-2019 16:37:13,789 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: PROD
+15-07-2019 16:40:45,924 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 16:40:47,800 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 16:41:07,158 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 16:41:08,908 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 16:43:32,919 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 16:43:34,681 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 16:44:48,485 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 16:44:49,435 ERROR c.a.i.CuentaPatrimonioImpl [main] ERROR: null
+15-07-2019 16:45:51,082 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 16:45:52,856 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 16:46:24,909 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 16:46:26,647 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 17:16:18,152 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Property prepStmtCacheSize does not exist on target class com.microsoft.sqlserver.jdbc.SQLServerDataSource
+15-07-2019 17:18:02,335 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Property cachePrepStmts does not exist on target class com.microsoft.sqlserver.jdbc.SQLServerDataSource
+15-07-2019 17:33:35,347 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Failed to initialize pool: No se pudo realizar la conexión con el host BNK01TS083, instancia con nombre ITLGDWH. Error: "java.net.UnknownHostException: BNK01TS083". Verifique los nombres del servidor y de instancia, compruebe que no hay ningún firewall bloqueando el tráfico UDP al puerto 1434. Para SQL Server 2005 o posterior, verifique que el servicio SQL Server Browser se está ejecutando en el host.
+15-07-2019 17:34:19,673 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Failed to initialize pool: No se pudo realizar la conexión con el host BNK01TS083, instancia con nombre ITLGDWH. Error: "java.net.UnknownHostException: BNK01TS083". Verifique los nombres del servidor y de instancia, compruebe que no hay ningún firewall bloqueando el tráfico UDP al puerto 1434. Para SQL Server 2005 o posterior, verifique que el servicio SQL Server Browser se está ejecutando en el host.
+15-07-2019 17:35:33,898 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Failed to initialize pool: No se pudo realizar la conexión con el host BNK01TS083, instancia con nombre ITLGDWH. Error: "java.net.UnknownHostException: BNK01TS083". Verifique los nombres del servidor y de instancia, compruebe que no hay ningún firewall bloqueando el tráfico UDP al puerto 1434. Para SQL Server 2005 o posterior, verifique que el servicio SQL Server Browser se está ejecutando en el host.
+15-07-2019 17:36:11,876 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 17:36:35,400 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 17:36:38,141 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+15-07-2019 17:39:33,522 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+15-07-2019 17:39:47,716 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+15-07-2019 17:39:50,056 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+05-08-2019 19:38:23,982 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+05-08-2019 19:39:05,483 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+06-08-2019 10:21:19,407 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+06-08-2019 10:21:21,171 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA
+07-08-2019 10:49:25,730 INFO c.s.HikariMsSqlITLGDWH [Thread-1] AMBIENTE: DESA
+07-08-2019 10:55:22,602 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Property requireSSL does not exist on target class com.microsoft.sqlserver.jdbc.SQLServerDataSource
+07-08-2019 10:55:43,348 ERROR c.s.HikariMsSqlITLGDWH [Thread-1] ERROR: Property useSSL does not exist on target class com.microsoft.sqlserver.jdbc.SQLServerDataSource
+07-08-2019 11:33:03,776 INFO c.s.HikariMsSqlITLGDWH [Thread-4] AMBIENTE: DESA
+07-08-2019 11:33:05,772 INFO c.s.HikariMsSqlITLGDWH [main] AMBIENTE: DESA

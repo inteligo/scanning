@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">    
+    <system systemId="http://172.18.11.82/bpmdev/WebServices/EntityManagerSOA.asmx?wsdl" uri="wsdl/172.18.11.82/bpmdev/WebServices/EntityManagerSOA.asmx.wsdl"/>
+    <system systemId="http://172.18.11.82:8093/RegBizagiOC.svc?wsdl" uri="wsdl/172.18.11.82_8093/RegBizagiOC.svc.wsdl"/>
+    <system systemId="http://172.18.11.82:8093/RegBizagiOC.svc?xsd=xsd0" uri="wsdl/172.18.11.82_8093/RegBizagiOC.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://172.18.11.82:8093/RegBizagiOC.svc?xsd=xsd1" uri="wsdl/172.18.11.82_8093/RegBizagiOC.svc.xsd_xsd1.xsd"/>
+    <system systemId="http://172.18.11.82:8093/RegBizagiOC.svc?xsd=xsd2" uri="wsdl/172.18.11.82_8093/RegBizagiOC.svc.xsd_xsd2.xsd"/>
+    <system systemId="http://172.18.10.34:9090/WSVision360Temenos/services?WSDL" uri="wsdl/172.18.10.34_9090/WSVision360Temenos/services.wsdl"/>
+    <system systemId="http://172.18.10.34:9090/WSVision360Temenos/services?wsdl" uri="wsdl/172.18.10.34_9090/WSVision360Temenos/services.wsdl"/>
+    <system systemId="http://172.18.10.34:9090/WSVision360Temenos/services?xsd=1" uri="wsdl/172.18.10.34_9090/WSVision360Temenos/services.xsd_1.xsd"/>
+    <system systemId="http://172.18.10.34:9090/WSVision360Temenos/services?xsd=2" uri="wsdl/172.18.10.34_9090/WSVision360Temenos/services.xsd_2.xsd"/>
+    <system systemId="http://172.18.11.36:8530/TMS.WS.ENQURIES/services?wsdl" uri="wsdl/172.18.11.36_8530/TMS.WS.ENQURIES/services.wsdl"/>
+    <system systemId="http://172.18.11.36:8530/TMS.WS.ENQURIES/services?xsd=1" uri="wsdl/172.18.11.36_8530/TMS.WS.ENQURIES/services.xsd_1.xsd"/>
+    <system systemId="http://172.18.11.36:8530/TMS.WS.ENQURIES/services?xsd=2" uri="wsdl/172.18.11.36_8530/TMS.WS.ENQURIES/services.xsd_2.xsd"/>
+    <system systemId="http://172.18.10.95/bpm/WebServices/EntityManagerSOA.asmx?wsdl" uri="wsdl/172.18.10.95/bpm/WebServices/EntityManagerSOA.asmx.wsdl"/>
+    <system systemId="http://172.18.10.95:8093/RegBizagiOC.svc?wsdl" uri="wsdl/172.18.10.95_8093/RegBizagiOC.svc.wsdl"/>
+    <system systemId="http://172.18.10.95:8093/RegBizagiOC.svc?xsd=xsd0" uri="wsdl/172.18.10.95_8093/RegBizagiOC.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://172.18.10.95:8093/RegBizagiOC.svc?xsd=xsd1" uri="wsdl/172.18.10.95_8093/RegBizagiOC.svc.xsd_xsd1.xsd"/>
+    <system systemId="http://172.18.10.95:8093/RegBizagiOC.svc?xsd=xsd2" uri="wsdl/172.18.10.95_8093/RegBizagiOC.svc.xsd_xsd2.xsd"/>
+    <system systemId="http://172.18.10.34:9090/TMS.WS.ENQURIES/services?wsdl" uri="wsdl/172.18.10.34_9090/TMS.WS.ENQURIES/services.wsdl"/>
+    <system systemId="http://172.18.10.34:9090/TMS.WS.ENQURIES/services?xsd=1" uri="wsdl/172.18.10.34_9090/TMS.WS.ENQURIES/services.xsd_1.xsd"/>
+    <system systemId="http://172.18.10.34:9090/TMS.WS.ENQURIES/services?xsd=2" uri="wsdl/172.18.10.34_9090/TMS.WS.ENQURIES/services.xsd_2.xsd"/>
+</catalog>
